@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E8972E00838198E5EFC92D3 /* Pods_scrumpoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B48230C14A77EE17AD31E0 /* Pods_scrumpoker.framework */; };
 		73A43A47267FDF6200FEA3E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A46267FDF6200FEA3E3 /* AppDelegate.swift */; };
 		73A43A49267FDF6200FEA3E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A48267FDF6200FEA3E3 /* SceneDelegate.swift */; };
-		73A43A4B267FDF6200FEA3E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A4A267FDF6200FEA3E3 /* ViewController.swift */; };
-		73A43A4E267FDF6200FEA3E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A4C267FDF6200FEA3E3 /* Main.storyboard */; };
 		73A43A50267FDF6300FEA3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A4F267FDF6300FEA3E3 /* Assets.xcassets */; };
 		73A43A53267FDF6300FEA3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A51267FDF6300FEA3E3 /* LaunchScreen.storyboard */; };
+		73A43A61267FE26D00FEA3E3 /* SprintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A5F267FE26D00FEA3E3 /* SprintsViewController.swift */; };
+		73A43A62267FE26D00FEA3E3 /* SprintsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A60267FE26D00FEA3E3 /* SprintsViewController.xib */; };
+		73A43A64267FE39900FEA3E3 /* Sprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A63267FE39900FEA3E3 /* Sprint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24EAF88227343407A80B5B94 /* Pods-scrumpoker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrumpoker.debug.xcconfig"; path = "Target Support Files/Pods-scrumpoker/Pods-scrumpoker.debug.xcconfig"; sourceTree = "<group>"; };
 		73A43A43267FDF6200FEA3E3 /* scrumpoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrumpoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A43A46267FDF6200FEA3E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73A43A48267FDF6200FEA3E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73A43A4A267FDF6200FEA3E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		73A43A4D267FDF6200FEA3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73A43A4F267FDF6300FEA3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A43A52267FDF6300FEA3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73A43A54267FDF6300FEA3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A43A5F267FE26D00FEA3E3 /* SprintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintsViewController.swift; sourceTree = "<group>"; };
+		73A43A60267FE26D00FEA3E3 /* SprintsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintsViewController.xib; sourceTree = "<group>"; };
+		73A43A63267FE39900FEA3E3 /* Sprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprint.swift; sourceTree = "<group>"; };
+		B61C9DB925E7109FA277872D /* Pods-scrumpoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrumpoker.release.xcconfig"; path = "Target Support Files/Pods-scrumpoker/Pods-scrumpoker.release.xcconfig"; sourceTree = "<group>"; };
+		D3B48230C14A77EE17AD31E0 /* Pods_scrumpoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrumpoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8972E00838198E5EFC92D3 /* Pods_scrumpoker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				73A43A45267FDF6200FEA3E3 /* scrumpoker */,
 				73A43A44267FDF6200FEA3E3 /* Products */,
+				E8E097D962050393271C7199 /* Pods */,
+				B8D2E8D26B9BF67D26FB4A33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +65,73 @@
 		73A43A45267FDF6200FEA3E3 /* scrumpoker */ = {
 			isa = PBXGroup;
 			children = (
+				73A43A5E267FE0ED00FEA3E3 /* Router */,
+				73A43A5D267FE0BE00FEA3E3 /* Presenter */,
+				73A43A5C267FE0AD00FEA3E3 /* Interactor */,
+				73A43A5B267FE0A900FEA3E3 /* View */,
+				73A43A5A267FE0A000FEA3E3 /* Entity */,
 				73A43A46267FDF6200FEA3E3 /* AppDelegate.swift */,
 				73A43A48267FDF6200FEA3E3 /* SceneDelegate.swift */,
-				73A43A4A267FDF6200FEA3E3 /* ViewController.swift */,
-				73A43A4C267FDF6200FEA3E3 /* Main.storyboard */,
 				73A43A4F267FDF6300FEA3E3 /* Assets.xcassets */,
 				73A43A51267FDF6300FEA3E3 /* LaunchScreen.storyboard */,
 				73A43A54267FDF6300FEA3E3 /* Info.plist */,
 			);
 			path = scrumpoker;
+			sourceTree = "<group>";
+		};
+		73A43A5A267FE0A000FEA3E3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				73A43A63267FE39900FEA3E3 /* Sprint.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		73A43A5B267FE0A900FEA3E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73A43A5F267FE26D00FEA3E3 /* SprintsViewController.swift */,
+				73A43A60267FE26D00FEA3E3 /* SprintsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73A43A5C267FE0AD00FEA3E3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		73A43A5D267FE0BE00FEA3E3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		73A43A5E267FE0ED00FEA3E3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B8D2E8D26B9BF67D26FB4A33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B48230C14A77EE17AD31E0 /* Pods_scrumpoker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E097D962050393271C7199 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24EAF88227343407A80B5B94 /* Pods-scrumpoker.debug.xcconfig */,
+				B61C9DB925E7109FA277872D /* Pods-scrumpoker.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73A43A57267FDF6300FEA3E3 /* Build configuration list for PBXNativeTarget "scrumpoker" */;
 			buildPhases = (
+				6C9BE4E4CA1C35C0E7FF1D95 /* [CP] Check Pods Manifest.lock */,
 				73A43A3F267FDF6200FEA3E3 /* Sources */,
 				73A43A40267FDF6200FEA3E3 /* Frameworks */,
 				73A43A41267FDF6200FEA3E3 /* Resources */,
+				7D5BE148A589DA2A2A099C7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,35 +194,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A43A53267FDF6300FEA3E3 /* LaunchScreen.storyboard in Resources */,
+				73A43A62267FE26D00FEA3E3 /* SprintsViewController.xib in Resources */,
 				73A43A50267FDF6300FEA3E3 /* Assets.xcassets in Resources */,
-				73A43A4E267FDF6200FEA3E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C9BE4E4CA1C35C0E7FF1D95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-scrumpoker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5BE148A589DA2A2A099C7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scrumpoker/Pods-scrumpoker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scrumpoker/Pods-scrumpoker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scrumpoker/Pods-scrumpoker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73A43A3F267FDF6200FEA3E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A43A4B267FDF6200FEA3E3 /* ViewController.swift in Sources */,
 				73A43A47267FDF6200FEA3E3 /* AppDelegate.swift in Sources */,
 				73A43A49267FDF6200FEA3E3 /* SceneDelegate.swift in Sources */,
+				73A43A61267FE26D00FEA3E3 /* SprintsViewController.swift in Sources */,
+				73A43A64267FE39900FEA3E3 /* Sprint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		73A43A4C267FDF6200FEA3E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73A43A4D267FDF6200FEA3E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		73A43A51267FDF6300FEA3E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +387,7 @@
 		};
 		73A43A58267FDF6300FEA3E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EAF88227343407A80B5B94 /* Pods-scrumpoker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +406,7 @@
 		};
 		73A43A59267FDF6300FEA3E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61C9DB925E7109FA277872D /* Pods-scrumpoker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
