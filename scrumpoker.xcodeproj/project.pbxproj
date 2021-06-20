@@ -3,31 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2E8972E00838198E5EFC92D3 /* Pods_scrumpoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B48230C14A77EE17AD31E0 /* Pods_scrumpoker.framework */; };
 		73A43A47267FDF6200FEA3E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A46267FDF6200FEA3E3 /* AppDelegate.swift */; };
-		73A43A49267FDF6200FEA3E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A48267FDF6200FEA3E3 /* SceneDelegate.swift */; };
 		73A43A50267FDF6300FEA3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A4F267FDF6300FEA3E3 /* Assets.xcassets */; };
 		73A43A53267FDF6300FEA3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A51267FDF6300FEA3E3 /* LaunchScreen.storyboard */; };
-		73A43A61267FE26D00FEA3E3 /* SprintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A5F267FE26D00FEA3E3 /* SprintsViewController.swift */; };
-		73A43A62267FE26D00FEA3E3 /* SprintsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A60267FE26D00FEA3E3 /* SprintsViewController.xib */; };
 		73A43A64267FE39900FEA3E3 /* Sprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A63267FE39900FEA3E3 /* Sprint.swift */; };
+		73A43A6A267FE8AC00FEA3E3 /* SprintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A68267FE8AC00FEA3E3 /* SprintsViewController.swift */; };
+		73A43A6B267FE8AC00FEA3E3 /* SprintsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A69267FE8AC00FEA3E3 /* SprintsViewController.xib */; };
+		73A43A6F267FE8EF00FEA3E3 /* SprintsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A6D267FE8EF00FEA3E3 /* SprintsTableViewCell.swift */; };
+		73A43A70267FE8EF00FEA3E3 /* SprintsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73A43A6E267FE8EF00FEA3E3 /* SprintsTableViewCell.xib */; };
+		73A43A73267FEB5400FEA3E3 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A72267FEB5400FEA3E3 /* UITableView+Extensions.swift */; };
+		73A43A76267FF0AF00FEA3E3 /* SprintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A75267FF0AF00FEA3E3 /* SprintService.swift */; };
+		73A43A78267FF18C00FEA3E3 /* SprintInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A77267FF18C00FEA3E3 /* SprintInterector.swift */; };
+		73A43A7A267FF56D00FEA3E3 /* SprintPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A79267FF56D00FEA3E3 /* SprintPresenter.swift */; };
+		73A43A7C267FFC0800FEA3E3 /* SprintRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43A7B267FFC0800FEA3E3 /* SprintRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24EAF88227343407A80B5B94 /* Pods-scrumpoker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrumpoker.debug.xcconfig"; path = "Target Support Files/Pods-scrumpoker/Pods-scrumpoker.debug.xcconfig"; sourceTree = "<group>"; };
 		73A43A43267FDF6200FEA3E3 /* scrumpoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrumpoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A43A46267FDF6200FEA3E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73A43A48267FDF6200FEA3E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		73A43A4F267FDF6300FEA3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A43A52267FDF6300FEA3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73A43A54267FDF6300FEA3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73A43A5F267FE26D00FEA3E3 /* SprintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintsViewController.swift; sourceTree = "<group>"; };
-		73A43A60267FE26D00FEA3E3 /* SprintsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintsViewController.xib; sourceTree = "<group>"; };
 		73A43A63267FE39900FEA3E3 /* Sprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprint.swift; sourceTree = "<group>"; };
+		73A43A68267FE8AC00FEA3E3 /* SprintsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprintsViewController.swift; sourceTree = "<group>"; };
+		73A43A69267FE8AC00FEA3E3 /* SprintsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SprintsViewController.xib; sourceTree = "<group>"; };
+		73A43A6D267FE8EF00FEA3E3 /* SprintsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintsTableViewCell.swift; sourceTree = "<group>"; };
+		73A43A6E267FE8EF00FEA3E3 /* SprintsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintsTableViewCell.xib; sourceTree = "<group>"; };
+		73A43A72267FEB5400FEA3E3 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		73A43A75267FF0AF00FEA3E3 /* SprintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintService.swift; sourceTree = "<group>"; };
+		73A43A77267FF18C00FEA3E3 /* SprintInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintInterector.swift; sourceTree = "<group>"; };
+		73A43A79267FF56D00FEA3E3 /* SprintPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintPresenter.swift; sourceTree = "<group>"; };
+		73A43A7B267FFC0800FEA3E3 /* SprintRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintRouter.swift; sourceTree = "<group>"; };
 		B61C9DB925E7109FA277872D /* Pods-scrumpoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrumpoker.release.xcconfig"; path = "Target Support Files/Pods-scrumpoker/Pods-scrumpoker.release.xcconfig"; sourceTree = "<group>"; };
 		D3B48230C14A77EE17AD31E0 /* Pods_scrumpoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrumpoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,13 +77,13 @@
 		73A43A45267FDF6200FEA3E3 /* scrumpoker */ = {
 			isa = PBXGroup;
 			children = (
+				73A43A71267FEB3000FEA3E3 /* Extensions */,
 				73A43A5E267FE0ED00FEA3E3 /* Router */,
 				73A43A5D267FE0BE00FEA3E3 /* Presenter */,
 				73A43A5C267FE0AD00FEA3E3 /* Interactor */,
 				73A43A5B267FE0A900FEA3E3 /* View */,
 				73A43A5A267FE0A000FEA3E3 /* Entity */,
 				73A43A46267FDF6200FEA3E3 /* AppDelegate.swift */,
-				73A43A48267FDF6200FEA3E3 /* SceneDelegate.swift */,
 				73A43A4F267FDF6300FEA3E3 /* Assets.xcassets */,
 				73A43A51267FDF6300FEA3E3 /* LaunchScreen.storyboard */,
 				73A43A54267FDF6300FEA3E3 /* Info.plist */,
@@ -82,6 +94,7 @@
 		73A43A5A267FE0A000FEA3E3 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				73A43A74267FF09100FEA3E3 /* Services */,
 				73A43A63267FE39900FEA3E3 /* Sprint.swift */,
 			);
 			path = Entity;
@@ -90,8 +103,7 @@
 		73A43A5B267FE0A900FEA3E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				73A43A5F267FE26D00FEA3E3 /* SprintsViewController.swift */,
-				73A43A60267FE26D00FEA3E3 /* SprintsViewController.xib */,
+				73A43A65267FE86500FEA3E3 /* Sprints */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +111,7 @@
 		73A43A5C267FE0AD00FEA3E3 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				73A43A77267FF18C00FEA3E3 /* SprintInterector.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -106,6 +119,7 @@
 		73A43A5D267FE0BE00FEA3E3 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				73A43A79267FF56D00FEA3E3 /* SprintPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -113,8 +127,44 @@
 		73A43A5E267FE0ED00FEA3E3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				73A43A7B267FFC0800FEA3E3 /* SprintRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		73A43A65267FE86500FEA3E3 /* Sprints */ = {
+			isa = PBXGroup;
+			children = (
+				73A43A6C267FE8C100FEA3E3 /* CustomViews */,
+				73A43A68267FE8AC00FEA3E3 /* SprintsViewController.swift */,
+				73A43A69267FE8AC00FEA3E3 /* SprintsViewController.xib */,
+			);
+			path = Sprints;
+			sourceTree = "<group>";
+		};
+		73A43A6C267FE8C100FEA3E3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				73A43A6D267FE8EF00FEA3E3 /* SprintsTableViewCell.swift */,
+				73A43A6E267FE8EF00FEA3E3 /* SprintsTableViewCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		73A43A71267FEB3000FEA3E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73A43A72267FEB5400FEA3E3 /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73A43A74267FF09100FEA3E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				73A43A75267FF0AF00FEA3E3 /* SprintService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		B8D2E8D26B9BF67D26FB4A33 /* Frameworks */ = {
@@ -194,8 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A43A53267FDF6300FEA3E3 /* LaunchScreen.storyboard in Resources */,
-				73A43A62267FE26D00FEA3E3 /* SprintsViewController.xib in Resources */,
+				73A43A6B267FE8AC00FEA3E3 /* SprintsViewController.xib in Resources */,
 				73A43A50267FDF6300FEA3E3 /* Assets.xcassets in Resources */,
+				73A43A70267FE8EF00FEA3E3 /* SprintsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A43A7A267FF56D00FEA3E3 /* SprintPresenter.swift in Sources */,
+				73A43A73267FEB5400FEA3E3 /* UITableView+Extensions.swift in Sources */,
+				73A43A76267FF0AF00FEA3E3 /* SprintService.swift in Sources */,
 				73A43A47267FDF6200FEA3E3 /* AppDelegate.swift in Sources */,
-				73A43A49267FDF6200FEA3E3 /* SceneDelegate.swift in Sources */,
-				73A43A61267FE26D00FEA3E3 /* SprintsViewController.swift in Sources */,
+				73A43A7C267FFC0800FEA3E3 /* SprintRouter.swift in Sources */,
 				73A43A64267FE39900FEA3E3 /* Sprint.swift in Sources */,
+				73A43A6A267FE8AC00FEA3E3 /* SprintsViewController.swift in Sources */,
+				73A43A78267FF18C00FEA3E3 /* SprintInterector.swift in Sources */,
+				73A43A6F267FE8EF00FEA3E3 /* SprintsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
